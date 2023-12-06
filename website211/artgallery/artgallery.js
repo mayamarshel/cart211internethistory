@@ -35,4 +35,6 @@ function myFunctionFerrari(){
     let swap = document.getElementById("ferrariBio").innerHTML;
     document.getElementById("ferrariBio").innerHTML = ferrari;
     ferrari = swap;
-}
+} 
+
+
