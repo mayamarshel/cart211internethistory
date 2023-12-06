@@ -1,0 +1,113 @@
+
+  /* full page features */
+body {
+background-color: hwb(211 44% 31%); 
+color: hwb(351 76% 4%);
+}
+
+
+.name {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 140px;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+.reason {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+/* SPECIFIC IMAGE TAGS */
+.imageHilma {
+    display: absolute;
+    float: left;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.imageKusama {
+    display: absolute;
+    float: left;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.imageFerrari {
+    display: absolute;
+    float: left;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+
+
+.title {
+    float:left;
+}
+
+.bio {
+    font-size: 36px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 50px;
+    padding: 180px;
+    transition-duration:1s;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+}
+
+.bio:hover {
+    background-color: aliceblue;
+
+}
+
+.links {
+    font-size: 24px;
+    padding: 100px;
+    background-color: pink;
+    color:blue;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.credits {
+    text-align: center;
+    background-color: pink;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* HOVER TAGS */
+ .hover-element {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .imageHilma:hover {
+    background-color: transparent; 
+    content: url('https://upload.wikimedia.org/wikipedia/commons/7/74/Hilma_af_Klint%2C_portrait_photograph_published_in_1901.jpg'); /* Set the image URL for the hover state */
+    /* background-size: cover;  */
+  }
+
+  .imageKusama:hover {
+    background-color: transparent; 
+    content: url('https://uploads7.wikiart.org/00321/images/yayoi-kusama/3-yayoikusama.JPG!Portrait.JPG'); /* Set the image URL for the hover state */
+    /* background-size: cover;  */
+  }
+
+  .imageFerrari:hover {
+    background-color: transparent; 
+    content: url('https://leonferrari.bellasartes.gob.ar/wp-content/uploads/2020/12/centenario-len-ferrari-1920-2020_50225282718_o-e1683896816100.jpg'); /* Set the image URL for the hover state */
+    /* background-size: cover;  */
+  }
+
